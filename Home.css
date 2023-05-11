@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 1rem;
+    scroll-behavior: smooth;
+}
+.container1{
+    background: linear-gradient(rgba(0, 4, 255, 0.4),rgba(0, 0, 0, 0.8),rgba(0,4,255,0.4)), url(grad.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+}
+.head{
+    background-image: linear-gradient(rgb(40, 78, 250),rgb(156, 145, 255),rgba(71, 82, 236, 0.7));
+    position: sticky;
+    top: 0;
+}
+header nav{
+    width: 85%;
+    margin: 0 auto;
+}
+header nav .mylogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+header nav ul li{
+    display: inline-block;
+    padding: 18px 0;
+    margin-right: 50px;
+    position: relative;
+}
+header nav ul li a{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header img{
+    height: 100px;
+}
+header img:hover{
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+nav li:hover{
+    transform: translateY(3px);
+    transition: 0.5s;
+}
+.btn{
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: auto;
+    background-image: linear-gradient(rgba(129, 131, 255, 0.4),rgba(52, 204, 241, 0.8),rgba(129, 131, 255, 0.4));
+    color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn:hover{
+    transform: translateY(-1.5px);
+    transition: 0.2s;
+    background-color: transparent;
+}
+
+/*body*/
+
+.cec{
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+.cec h1{
+    margin-top: 180px;
+    margin-left: 50px;
+}
+.cec button{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgba(40, 53, 233, 0.5);
+    color: rgba(255, 255, 255,0.8);
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.cec button:hover{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgba(22, 36, 230, 0.9);
+    color: rgba(255, 255, 255,0.8);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+
+.container2{
+    background: linear-gradient(rgba(0, 80, 255, 0.4),rgba(0, 4, 255, 0.4),rgba(214, 223, 243, 0.4));
+	height: 60vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.container2 header{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 60px;
+}
+.container2 h2{
+    font-size: 50px; 
+    font-family: 'Bebas Neue', cursive;
+}
+.container2 p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+}
+
+
+
+.container3{
+    height: 100vh;
+    background: linear-gradient(rgba(214, 223, 243, 0.4),rgba(200, 201, 255, 0.4),rgba(255, 255, 255, 0.4));
+}
+.mission img{
+    height: 100px;
+}
+.IT_mission{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+}
+.IT_mission h2{
+    margin-top: 180px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    align-self: center;
+    line-height: 1.5;
+}
+.IT_mission p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+}
+
+.IT_vision{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.IT_vision h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    align-self: center;
+    line-height: 1.5;
+}
+.IT_vision p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+}
+
+.IT_goal{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.IT_goal h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    align-self: center;
+    line-height: 1.5;
+}
+.IT_goal p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+}
